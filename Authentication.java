@@ -1,7 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-//login and register switching panel example
 public class Authentication implements ActionListener {
     JPanel container = new JPanel();
     CardLayout card = new CardLayout();
