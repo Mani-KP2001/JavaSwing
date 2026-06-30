@@ -32,6 +32,11 @@ public class LabSwingGuiExample implements ActionListener {
         loginpanel.add(loginTitle);
         loginpanel.add(loginBttn);
         loginpanel.add(registerBttn);
+           // registerBttn.addActionListener(new ActionListener() {
+        // public void actionPerformed(ActionEvent e) {
+        // card.show(container, "REGISTER");
+        // }
+        // });
         return loginpanel;
     }
 
@@ -47,6 +52,11 @@ public class LabSwingGuiExample implements ActionListener {
         registerpanel.add(registerTitle);
         registerpanel.add(registerBttn);
         registerpanel.add(loginBttn);
+            // loginBttn.addActionListener(new ActionListener() {
+        // public void actionPerformed(ActionEvent e) {
+        // card.show(container, "LOGIN");
+        // }
+        // });
         return registerpanel;
     }
 
